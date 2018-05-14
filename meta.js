@@ -74,6 +74,11 @@ module.exports = {
       type: 'confirm',
       message: '安装vue-router不？',
     },
+    axios:{
+      when: 'isNotTest',
+      type: 'confirm',
+      message: '安装axios不？',
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',
